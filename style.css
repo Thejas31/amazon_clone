@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav {
+    background-color: #131921;
+    height: 60px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 115px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-image: url("AMAZONLOGO.png");
+    align-items: cemtre;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 115px;
+    margin-top: 10px;
+    
+}
+
+.border {
+    border:1px solid transparent;
+}
+
+.border:hover{
+    margin-top: 10px;
+    border:1px solid white;
+    height: 40px;
+}
+
+.address {
+    height: 30px;
+}
+
+.add-icon {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display:flex
+}
+
+.del {
+    margin-top: 10px;
+    margin-left: 27px;
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+.location {
+    margin-left: 7px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/*search boc*/
+.nav-search {
+    display: flex;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 28px;
+    width: 600px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav-search:hover {
+    border: 2px solid #f59c27;
+}
+
+.select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #cccccc;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-icon {
+    background-color: #f59c27;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #131921;
+}
+
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+/*language*/
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-icon {
+    font-size: 30px;
+}
+
+.lan {
+    margin-left: 10px;
+}
+/* return and order and sign in*/
+
+.account{
+    margin-top: 10px;
+    align-items: center;
+
+}
+.acc1{
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+
+.rAndo {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.cart-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-box i {
+    font-size: 32px;
+    
+}
+
+.cart-box p {
+    font-size: 0.85rem;
+    margin-top: 12px;
+    font-weight: 700;
+}
+/*panel*/
+.borderp {
+    border:1px solid transparent;
+}
+
+.borderp:hover{
+    margin-top: 10px;
+    border:1px solid white;
+    height: 35px;
+}
+
+.panel {
+    background-color: #232f3e;
+    color:white;
+    display: flex;
+    height:39px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all{
+    display: flex;
+}
+.all-icon {
+    font-size: 15px;
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.PO {
+    display: flex;
+    width: 65%;
+    font-size: 15px;
+}
+.PO p {
+    font-size: 15px;
+    margin-left: 17px;
+}
+.SN {
+    font-weight: 300;
+    font-size: 15px;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*Sale Image*/
+.sale-image {
+    background-image: url("amazonfirst.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.clone-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    background-color: aliceblue;
+    background-size: cover;
+    height: 50px;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.clone-message a{
+    color: #026d80;
+}
+
+/*boxes*/
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    background-color: #c1e9f0;
+}
+.box{
+    display: flex;
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    margin-top: 17px;
+    border-radius: 5px;
+    padding: 20px 0px 15px;
+
+}
+.box h2{
+    margin-top: 5px ;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.image {
+    height: 276px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    align-self: center;
+    background-size: cover;
+}
+.box a{
+    color: #026d80;
+    margin-left: 15px;
+}
+
+.large-box {
+    border-radius: 5px;
+    margin-top: 17px;
+    height: 220px;
+    width: 1420px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+.footpanel1 {
+    margin-top: 10px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+.footpanel1:hover{
+    background-color: #4e6076;
+}
+.panel2 {
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    height: 320px;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 20px;
+    font-weight: 700;
+}
+ul a{
+    display: block;
+    font-size: small;
+    margin-top: 15px;
+    color:#dddddd;
+}
+.panel3{
+    border-top: 0.5px solid white;
+    background-color:#222f3d ;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+}
+.ama{
+    background-image: url("ama.png");
+    width: 80px;
+    height: 27px;
+    background-size: cover;
+    margin-right: 20px;
+}
+.txt {
+    display: flex;
+    margin-left: 30px;
+}
+.subtxt{
+    border: 1.5px solid #dddddd8a;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right:10px ;
+}
+.subtxt:hover{
+    border: 1.5px solid #dddddd8a;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #3e4b5b;
+}
+.panel4{
+    background-color:#131A22 ;
+    height: 78px;
+    width: 100%;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.774);
+    
+}
+/*.top{
+    display: flex;
+    margin-left: 490px;
+}
+.top p{
+    margin-left: 20px;
+}
+.bottom{
+    margin-left: 590px;
+}*/
+.footend{
+    display: flex;
+    justify-content: center;
+}
+.top a{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.top i{
+    margin-top: 20px; 
+    margin-left: 5px;
+}
