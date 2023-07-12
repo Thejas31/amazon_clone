@@ -38,6 +38,7 @@
     margin-top: 10px;
     border:1px solid white;
     height: 40px;
+    cursor: pointer;
 }
 
 .address {
@@ -158,6 +159,7 @@
     margin-top: 10px;
     border:1px solid white;
     height: 35px;
+    cursor: pointer;
 }
 
 .panel {
@@ -340,16 +342,6 @@ ul a{
     color: rgba(255, 255, 255, 0.774);
     
 }
-/*.top{
-    display: flex;
-    margin-left: 490px;
-}
-.top p{
-    margin-left: 20px;
-}
-.bottom{
-    margin-left: 590px;
-}*/
 .footend{
     display: flex;
     justify-content: center;
@@ -361,4 +353,16 @@ ul a{
 .top i{
     margin-top: 20px; 
     margin-left: 5px;
+}
+.panel2 p:hover{
+    cursor: pointer;
+}
+.panel2 a:hover{
+    cursor: pointer;
+}
+.subtxt:hover{
+    cursor: pointer;
+}
+.ama:hover{
+    cursor: pointer;
 }
